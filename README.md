@@ -15,7 +15,7 @@ We explore how LLMs like **Gemini Pro 2.5** and **Groq-hosted models** (LLaMA 3,
 ## Folder Structure
 
 ├── code/ # Scripts or notebooks used in the experiments
-├── data/ # Preprocessed datasets (if allowed to share)
+├── data/ # Preprocessed datasets 
 ├── experiments/
 │ └── experiment_summary.md # Detailed findings from all 3 experiments
 ├── results/ # CSV files, visualizations, or metrics
