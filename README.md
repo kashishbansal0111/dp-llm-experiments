@@ -12,16 +12,6 @@ We explore how LLMs like **Gemini Pro 2.5** and **Groq-hosted models** (LLaMA 3,
 - **Binary classification** with class imbalance (Stroke Prediction)
 - **Regression** on a skewed target variable (Insurance Cost Prediction)
 
-## Folder Structure
-
-├── code/ # Scripts or notebooks used in the experiments
-├── data/ # Preprocessed datasets 
-├── experiments/
-│ └── experiment_summary.md # Detailed findings from all 3 experiments
-├── results/ # CSV files, visualizations, or metrics
-└── README.md # This file
-
-
 ## Experiments Conducted
 
 ### 1. Stroke Prediction (Classification – Highly Imbalanced)
