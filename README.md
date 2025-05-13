@@ -5,14 +5,14 @@ Comparative analysis of LLM-guided hyper-parameter tuning in differentially priv
 
 This repository contains all resources, experiments, and analysis related to the application of **Large Language Models (LLMs)** for tuning hyperparameters in **Differentially Private Stochastic Gradient Descent (DP-SGD)**. The experiments focus on enhancing privacy-preserving machine learning models using LLM-driven recommendations.
 
-## 📌 Overview
+## Overview
 
 We explore how LLMs like **Gemini Pro 2.5** and **Groq-hosted models** (LLaMA 3, Qwen, Deepseek, and Gemma) respond to refined prompts and guide the selection of `epsilon`, `delta`, and `max_grad_norm` parameters for DP-SGD. The study includes both:
 
 - **Binary classification** with class imbalance (Stroke Prediction)
 - **Regression** on a skewed target variable (Insurance Cost Prediction)
 
-## 📂 Folder Structure
+## Folder Structure
 
 ├── code/ # Scripts or notebooks used in the experiments
 ├── data/ # Preprocessed datasets (if allowed to share)
@@ -22,7 +22,7 @@ We explore how LLMs like **Gemini Pro 2.5** and **Groq-hosted models** (LLaMA 3,
 └── README.md # This file
 
 
-## 🧪 Experiments Conducted
+## Experiments Conducted
 
 ### 1. Stroke Prediction (Classification – Highly Imbalanced)
 - Demonstrates LLM-guided improvements in `max_grad_norm` selection
@@ -38,24 +38,20 @@ We explore how LLMs like **Gemini Pro 2.5** and **Groq-hosted models** (LLaMA 3,
 - Evaluates consistency and utility of different Groq models (LLaMA3, Gemma2, Qwen, Deepseek)
 - Results show strong alignment in reasoning with varied `epsilon` and `max_grad_norm` suggestions
 
-## 🧠 Key Learnings
+## Key Learnings
 
 - Default DP-SGD settings fail in class-imbalanced settings without guided tuning
 - Prompt engineering significantly improves the quality of LLM-suggested parameters
 - Linear models may be insufficient for complex real-world data, but DP noise doesn’t drastically worsen their performance when tuned properly
 
-## 📈 Technologies & Tools
+## Technologies & Tools
 
 - Python, NumPy, Pandas
 - Open-source LLM APIs (Gemini Pro 2.5, Groq API)
 - Differential Privacy Libraries
 - Matplotlib / Seaborn (for visualization)
 
-## 📚 Citation
-
-If you use this work in your research or publication, please cite it appropriately (add BibTeX entry here if you publish this later).
-
-## 👤 Author
+## Author
 
 **Kashish Bansal**  
 Bachelor of Software Engineering (Hons), Deakin University  
