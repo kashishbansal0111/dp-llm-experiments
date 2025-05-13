@@ -1,4 +1,4 @@
-# dp-llm-experiments
+# DP-LLM-Experiments
 Comparative analysis of LLM-guided hyper-parameter tuning in differentially private machine learning, including experiments on imbalanced stroke classification and insurance cost regression.
 
 # Research Project 2: LLM-Guided Differential Privacy Experiments
